@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Ime:</b>
+  <%= @kolegij.ime %>
+</p>
+
+<p>
+  <b>Ocjena:</b>
+  <%= @kolegij.ocjena %>
+</p>
+
+
+<%= link_to 'Edit', edit_kolegij_path(@kolegij) %> |
+<%= link_to 'Back', kolegijs_path %>

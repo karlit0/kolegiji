@@ -1,5 +1,9 @@
 Kolegiji::Application.routes.draw do
-  get "static_pages/home"
+
+  resources :kolegijs
+
+
+  root to: 'kolegijs#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
